@@ -1,6 +1,6 @@
 {
   "name": "@stayradiated/hydro",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utils for parallel processing iterable streams",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

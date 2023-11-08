@@ -1,0 +1,48 @@
+{
+  "name": "@stayradiated/hydro",
+  "version": "1.0.0",
+  "description": "Utils for parallel processing iterable streams",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "vitest --watch=false",
+    "tidy": "xo --fix",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": {
+    "name": "George Czabania"
+  },
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@stayradiated/error-boundary": "4.2.1",
+    "p-map": "6.0.0",
+    "typescript": "5.2.2",
+    "vitest": "0.34.6",
+    "xo": "0.56.0"
+  },
+  "__comment": "The following configs are managed by `@stayradiated/jsconfig`",
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "prettier": true
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "useTabs": false
+  },
+  "imports": {
+    "#src/*": {
+      "node": "./dist/*"
+    }
+  },
+  "peerDependencies": {
+    "@stayradiated/error-boundary": "4.2.1",
+    "p-map": "6.0.0"
+  }
+}

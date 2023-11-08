@@ -1,0 +1,8 @@
+/dist/*/*.test.js
+/dist/*/*.test.d.ts
+/fixup
+/pnpm-lock.json
+/src
+/tsconfig-base.json
+/tsconfig-cjs.json
+/tsconfig.json
